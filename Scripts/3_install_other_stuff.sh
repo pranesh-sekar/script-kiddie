@@ -33,6 +33,7 @@ flatpak run io.github.realmazharhussain.GdmSettings
 
 # Install Extensions
 # User themes, Extensions Sync, Dash to Dock
+flatpak run com.mattjakeman.ExtensionManager
 
 # Add GTK4 UI to Firefox (Open Firefox once before updating)
 sudo nala install curl
@@ -41,5 +42,8 @@ curl -s -o- https://raw.githubusercontent.com/rafaelmardojai/firefox-gnome-theme
 # update the number of workspaces allowed
 
 # update  favorites in Dock
+
+# Install Cyber Security Tools
+sudo nala install nmap gobuster
 
 exit 0
