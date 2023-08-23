@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Update package lists - skip in debian 12 or above (already installed)
 sudo apt update
 sudo apt install open-vm-tools-desktop
@@ -41,9 +43,6 @@ curl -s -o- https://raw.githubusercontent.com/rafaelmardojai/firefox-gnome-theme
 
 # update the number of workspaces allowed
 
-# update  favorites in Dock
-
-# Install Cyber Security Tools
-sudo nala install nmap gobuster
+# update favorites in Dock
 
 exit 0
