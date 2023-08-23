@@ -4,6 +4,9 @@
 sudo apt update
 sudo apt install open-vm-tools-desktop
 
+# Install Git
+sudo apt install git
+
 # Install Nala
 sudo apt install nala
 
