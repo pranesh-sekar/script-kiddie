@@ -7,6 +7,9 @@ sudo apt install open-vm-tools-desktop
 # Install Git
 sudo apt install git
 
+# Install Net Tools (for ifconfig)
+sudo apt install net-tools
+
 # Install Nala
 sudo apt install nala
 
