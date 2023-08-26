@@ -14,22 +14,22 @@ sudo apt install net-tools
 sudo apt install nala
 
 # Install Gnome Tweaks - skip in debian 12 or above (already installed)
-sudo nala install gnome-tweak-tool
+sudo apt install gnome-tweak-tool
 
 # Install Yaru Theme
-sudo nala install yaru*
+sudo apt install yaru*
 
 # Configure Gnome Tweaks - Window Icons, Apperance
 
 # Remove Gnome Games
-sudo nala remove gnome-games
+sudo apt remove gnome-games
 
 # remove Gnome Terminal and install Gnome Console
-sudo nala install gnome-console
-sudo nala remove gnome-terminal
+sudo apt install gnome-console
+sudo apt remove gnome-terminal
 
 # Install Flatpak and add the Flathub repository
-sudo nala install flatpak
+sudo apt install flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 # Install Flatpaks
@@ -44,7 +44,7 @@ flatpak run io.github.realmazharhussain.GdmSettings
 flatpak run com.mattjakeman.ExtensionManager
 
 # Add GTK4 UI to Firefox (Open Firefox once before updating)
-sudo nala install curl
+sudo apt install curl
 curl -s -o- https://raw.githubusercontent.com/rafaelmardojai/firefox-gnome-theme/master/scripts/install-by-curl.sh | bash
 
 # update the number of workspaces allowed

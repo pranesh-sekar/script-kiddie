@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Install Ruby Gems
-sudo nala install rubygems python3 python3-pip python3.11-venv
+sudo apt install rubygems python3 python3-pip python3.11-venv
 
 # Install Cyber Security Tools
-sudo nala install nmap gobuster openvpn
+sudo apt install nmap gobuster openvpn
 gem install evil-winrm
 
 # Downloading SecLists
