@@ -29,8 +29,7 @@ sudo apt install gnome-console
 sudo apt remove gnome-terminal
 
 # Install Flatpak and add the Flathub repository
-sudo apt install flatpak
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo apt install flatpak && flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 # Install Flatpaks
 flatpak install flathub com.mattjakeman.ExtensionManager
@@ -40,7 +39,7 @@ flatpak install flathub io.github.realmazharhussain.GdmSettings
 flatpak run io.github.realmazharhussain.GdmSettings
 
 # Install Extensions
-# User themes, Extensions Sync, Dash to Dock
+# User themes, Extensions Sync, Dash to Dock, Alphabetcal App Grid
 flatpak run com.mattjakeman.ExtensionManager
 
 # Add GTK4 UI to Firefox (Open Firefox once before updating)

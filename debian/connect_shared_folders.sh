@@ -14,3 +14,5 @@ sudo apt-get install open-vm-tools open-vm-tools-desktop
 
 sudo apt-get install build-essential module-assistant linux-headers-virtual linux-image-virtual && sudo dpkg-reconfigure open-vm-tools
 
+
+
