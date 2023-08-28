@@ -15,3 +15,6 @@ git clone https://github.com/lgandx/Responder
 
 # downloading Impacket
 git clone https://github.com/SecureAuthCorp/impacket.git
+
+# downloading Rouge Java Naming and Directory Interface API
+git clone https://github.com/veracode-research/rogue-jndi
