@@ -50,4 +50,9 @@ curl -s -o- https://raw.githubusercontent.com/rafaelmardojai/firefox-gnome-theme
 
 # update favorites in Dock
 
+# enable wayland in firefox
+gnome-text-editor ~/.profile
+## add this line to end of file
+export MOZ_ENABLE_WAYLAND=1
+
 exit 0
